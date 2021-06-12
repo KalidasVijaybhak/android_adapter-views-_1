@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+ 
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_status"
+            android:title="status" />
+
+        <item
+            android:id="@+id/nav_cycle"
+            android:icon="@drawable/ic_calls"
+            android:title="calls" />
+
+        <item
+            android:id="@+id/nav_bus"
+            android:icon="@drawable/ic_settings"
+            android:title="settings" />
+
+        <item
+            android:id="@+id/nav_plane"
+            android:icon="@drawable/ic_delete"
+            android:title="delete" />
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_chats"
+                    android:title="chats" />
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_calls"
+                    android:title="calls" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_settings"
+                    android:title="settings" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_chats"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_delete"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/chat_icon"
+        android:icon="@drawable/ic_chats"
+        android:title="chat"
+        android:iconTint="@color/colorPrimary"
+        app:showAsAction="never">
+
+    </item>
+
+    <item android:id="@+id/status_icon"
+        android:icon="@drawable/ic_status"
+        android:title="status"
+        android:iconTint="@color/colorPrimary"
+        app:showAsAction="never">
+
+    </item>
+    <item android:id="@+id/calls_icon"
+        android:icon="@drawable/ic_calls"
+        android:title="calls"       >
+
+    </item>
+ 
+</menu>
