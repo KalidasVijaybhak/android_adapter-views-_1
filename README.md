@@ -1,0 +1,1 @@
+# android_adapter-views-_1
